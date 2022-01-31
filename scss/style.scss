@@ -47,8 +47,8 @@
         height: 100%;
 
         .swiper-slide {
-            width: 60vw;
-            height: 60vh;
+            width: 80vw;
+            height: 70vh;
             position: relative;
             top: 20vh;
 
@@ -58,7 +58,7 @@
                 border: 1px solid #fff;
                 background: rgba(255,255,255,0.5);
                 padding: 60px;
-                font: bold 50px/1 "lato"; color: #999;
+                font: bold 30px/1 "poppins"; color: #000;
                 backdrop-filter: blur(10px);
                 opacity: 0.5;
                 transition: opacity 1s;
@@ -91,10 +91,10 @@
     .swiper-pagination {
         position: absolute;
         left: auto;
+        right: 42vw;
+        top: 5vh;
         width: auto;
         height: 50px;
-        right: 10vw;
-        top: 10vh;
 
         span {
             width: auto;
@@ -103,6 +103,7 @@
             border-radius: 0px;
             margin-left: 60px;
             opacity: 0.7;
+            font: bold 20px/1 "poppins";
 
             &.swiper-pagination-bullet-active {
                 opacity: 1; 
