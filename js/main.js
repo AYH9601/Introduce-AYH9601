@@ -1,4 +1,4 @@
-const menu = ["Introduce", "PO1. Frozen", "PO2. Umbrella Corporation", "PO3. To to List"];
+const menu = ["Introduce", "PO1.", "PO2.", "PO3."];
 
 const swiper = new Swiper("#wrap", {
     loop: true,
@@ -19,7 +19,6 @@ const swiper = new Swiper("#wrap", {
         renderBullet: function(index, className){
             return `<span class="${className}">${menu[index]}</span>`
         }
-
     },
 });
 
