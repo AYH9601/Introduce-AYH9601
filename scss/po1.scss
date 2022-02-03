@@ -1,0 +1,24 @@
+.po1 {
+    h2 {
+        font: bold 30px/1 "poppins";
+        margin-bottom: 50px;
+    }
+
+    .po1Pic {
+        width: 600px;
+        height: 350px;
+        background-image: url(../img/FrozenPage.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .po1Comment {
+        position: absolute;
+        top: 130px;
+        left: 750px;
+        p {
+            text-align: c;
+            font: bold 45px/1.5 "dongle";
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.introPage {
+    h2 {
+        font: bold 30px/1 "poppins";
+    }
+    
+    .introPic {
+        margin-top: 50px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border:2px solid #fff;
+        background-image: url(../img/Veigar.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .introduce {
+        position: absolute;
+        right: 70px;
+        top: 200px;
+        h3 {
+            text-align: right;
+            font: bold 60px/1 "dongle";
+            margin-bottom: 50px;
+        }
+        p  {
+            text-align: right;
+            font: bold 60px/1 "dongle";
+        }
+    }
+}

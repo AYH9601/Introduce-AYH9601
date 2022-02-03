@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300&family=Orbitron&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300&family=Dongle:wght@300&family=Orbitron&family=Poppins:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +16,46 @@ a {
   position: relative;
   background-color: #fff;
   overflow: hidden; }
+  #wrap .introPage h2 {
+    font: bold 30px/1 "poppins"; }
+  #wrap .introPage .introPic {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-image: url(../img/Veigar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  #wrap .introPage .introduce {
+    position: absolute;
+    right: 70px;
+    top: 200px; }
+    #wrap .introPage .introduce h3 {
+      text-align: right;
+      font: bold 60px/1 "dongle";
+      margin-bottom: 50px; }
+    #wrap .introPage .introduce p {
+      text-align: right;
+      font: bold 60px/1 "dongle"; }
+  #wrap .po1 h2 {
+    font: bold 30px/1 "poppins";
+    margin-bottom: 50px; }
+  #wrap .po1 .po1Pic {
+    width: 600px;
+    height: 350px;
+    background-image: url(../img/FrozenPage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  #wrap .po1 .po1Comment {
+    position: absolute;
+    top: 130px;
+    left: 750px; }
+    #wrap .po1 .po1Comment p {
+      text-align: c;
+      font: bold 45px/1.5 "dongle"; }
   #wrap .bg li {
     width: 100%;
     height: 100%;
@@ -34,7 +74,7 @@ a {
     #wrap .bg li:nth-of-type(2) {
       background-image: url(../img/background_po1.jpg); }
     #wrap .bg li:nth-of-type(3) {
-      background-image: url(../img/background_po2.jpg); }
+      background-image: url(../img/background_po2.png); }
     #wrap .bg li:nth-of-type(4) {
       background-image: url(../img/background_po3.png); }
   #wrap .swiper-wrapper {
