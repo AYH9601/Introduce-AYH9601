@@ -2,9 +2,18 @@
     h2 {
         font: bold 30px/1 "poppins";
         margin-bottom: 50px;
+        color: #fff;
+    }
+    h3 {
+        position: absolute;
+        top: 55px;
+        right: 60px;
+        font: bold 15px/1 "poppins";
+        color: #fff;
     }
 
     .po1Pic {
+        border-top: 5px solid #fff;
         width: 600px;
         height: 350px;
         background-image: url(../img/FrozenPage.png);
@@ -17,8 +26,26 @@
         top: 130px;
         left: 750px;
         p {
-            text-align: c;
             font: bold 45px/1.5 "dongle";
+        }
+    }
+    .po1Logo {
+        margin-top: 30px;
+        display: inline-block;
+        .po1LogoImg {
+            border-radius: 10px;
+            width: 80px;
+            height: 80px;
+            background-image: url(../img/FrozenLogo.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        p {
+            margin-top: 5px;
+            text-align: center;
+            font: bold 20px/1 "poppins";
+            color: #fff;
         }
     }
 }
