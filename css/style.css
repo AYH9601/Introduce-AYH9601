@@ -39,10 +39,71 @@ a {
     #wrap .introPage .introduce p {
       text-align: right;
       font: bold 33px/1 "noto sans kr"; }
+  #wrap .introPage .lang {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center; }
+    #wrap .introPage .lang ::after {
+      content: "";
+      display: block;
+      clear: both; }
+    #wrap .introPage .lang li {
+      margin: 0 20px 0 20px;
+      float: left;
+      width: 70px;
+      height: 70px;
+      border-radius: 10px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: 0.25s; }
+      #wrap .introPage .lang li:hover {
+        transition: 0.25s;
+        cursor: pointer; }
+      #wrap .introPage .lang li:nth-of-type(1) {
+        background-image: url(../img/html5.png); }
+      #wrap .introPage .lang li:nth-of-type(2) {
+        background-image: url(../img/css.png); }
+      #wrap .introPage .lang li:nth-of-type(3) {
+        background-image: url(../img/javascript.png); }
+      #wrap .introPage .lang li:nth-of-type(4) {
+        background-image: url(../img/sass.png); }
+      #wrap .introPage .lang li:nth-of-type(5) {
+        background-image: url(../img/react.png); }
+      #wrap .introPage .lang li:nth-of-type(6) {
+        background-image: url(../img/redux.png); }
+      #wrap .introPage .lang li p {
+        transform: translateY(80px);
+        text-align: center;
+        font: bold 20px/1 "poppins";
+        color: #fff; }
   #wrap .po1 h2 {
     font: bold 30px/1 "poppins";
     margin-bottom: 50px;
     color: #fff; }
+    #wrap .po1 h2 .langPo1 {
+      display: inline-block; }
+      #wrap .po1 h2 .langPo1 ::after {
+        content: "";
+        display: block;
+        clear: both; }
+      #wrap .po1 h2 .langPo1 li {
+        margin: 0 10px 0 10px;
+        float: left;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+        #wrap .po1 h2 .langPo1 li:nth-of-type(1) {
+          background-image: url(../img/html5.png); }
+        #wrap .po1 h2 .langPo1 li:nth-of-type(2) {
+          background-image: url(../img/css.png); }
+        #wrap .po1 h2 .langPo1 li:nth-of-type(3) {
+          background-image: url(../img/javascript.png); }
+        #wrap .po1 h2 .langPo1 li:nth-of-type(4) {
+          background-image: url(../img/sass.png); }
   #wrap .po1 h3 {
     position: absolute;
     top: 55px;
@@ -83,6 +144,33 @@ a {
     font: bold 30px/1 "poppins";
     margin-bottom: 50px;
     color: crimson; }
+    #wrap .po2 h2 .langPo2 {
+      display: inline-block; }
+      #wrap .po2 h2 .langPo2 ::after {
+        content: "";
+        display: block;
+        clear: both; }
+      #wrap .po2 h2 .langPo2 li {
+        margin: 0 10px 0 10px;
+        float: left;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+        #wrap .po2 h2 .langPo2 li:nth-of-type(1) {
+          background-image: url(../img/html5.png); }
+        #wrap .po2 h2 .langPo2 li:nth-of-type(2) {
+          background-image: url(../img/css.png); }
+        #wrap .po2 h2 .langPo2 li:nth-of-type(3) {
+          background-image: url(../img/javascript.png); }
+        #wrap .po2 h2 .langPo2 li:nth-of-type(4) {
+          background-image: url(../img/sass.png); }
+        #wrap .po2 h2 .langPo2 li:nth-of-type(5) {
+          background-image: url(../img/react.png); }
+        #wrap .po2 h2 .langPo2 li:nth-of-type(6) {
+          background-image: url(../img/redux.png); }
   #wrap .po2 h3 {
     position: absolute;
     top: 55px;

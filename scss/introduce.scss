@@ -29,4 +29,51 @@
             font: bold 33px/1 "noto sans kr";
         }
     }
+    .lang {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        ::after {content: ""; display: block; clear: both;}
+        li {
+            margin: 0 20px 0 20px;
+            float: left;
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            // filter: grayscale(0.4);
+            transition: 0.25s;
+            &:hover {
+                transition: 0.25s;
+                cursor: pointer;
+                // filter: grayscale(0); 
+            }
+            &:nth-of-type(1) {
+                background-image: url(../img/html5.png);
+            }
+            &:nth-of-type(2) {
+                background-image: url(../img/css.png);
+            }
+            &:nth-of-type(3) {
+                background-image: url(../img/javascript.png);
+            }
+            &:nth-of-type(4) {
+                background-image: url(../img/sass.png);
+            }
+            &:nth-of-type(5) {
+                background-image: url(../img/react.png);
+            }
+            &:nth-of-type(6) {
+                background-image: url(../img/redux.png);
+            }
+            p {
+                transform: translateY(80px);
+                text-align: center;
+                font: bold 20px/1 "poppins";
+                color: #fff;
+            }
+        }
+    }
 }
