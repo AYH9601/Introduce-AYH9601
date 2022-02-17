@@ -29,7 +29,7 @@
             opacity: 1;
         }
         &:nth-of-type(1){
-            background-image: url(../img/background_intro.jpg);
+            background-image: url(../img/background_0.jpg);
         }
         &:nth-of-type(2){
             background-image: url(../img/background_po1.jpg);
@@ -72,19 +72,19 @@
 
     .swiper-button-next {
         top: auto;
-        bottom: 5vh;
-        right: 10vw;
+        bottom: 3vh;
+        right: 3vw;
         transform: scale(0.5);
-        filter: brightness(0%);
+        filter: brightness(100%);
         opacity: 0.7;
     }
     .swiper-button-prev {
         top: auto;
-        bottom: 5vh;
+        bottom: 3vh;
         left: auto;
-        right: calc(10vw + 50px);
+        right: calc(3vw + 50px);
         transform: scale(0.5);
-        filter: brightness(0%);
+        filter: brightness(100%);
         opacity: 0.7;
     }
 

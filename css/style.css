@@ -24,21 +24,21 @@ a {
     height: 300px;
     border-radius: 50%;
     border: 2px solid #fff;
-    background-image: url(../img/Veigar.png);
+    background-image: url(../img/profile_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
   #wrap .introPage .introduce {
     position: absolute;
-    right: 70px;
+    right: 300px;
     top: 200px; }
     #wrap .introPage .introduce h3 {
       text-align: right;
-      font: bold 33px/1 "noto sans kr";
+      font: bold 25px/1 "noto sans kr";
       margin-bottom: 50px; }
     #wrap .introPage .introduce p {
       text-align: right;
-      font: bold 33px/1 "noto sans kr"; }
+      font: bold 25px/1 "noto sans kr"; }
   #wrap .introPage .lang {
     margin-top: 80px;
     display: flex;
@@ -221,7 +221,7 @@ a {
     #wrap .bg li.on {
       opacity: 1; }
     #wrap .bg li:nth-of-type(1) {
-      background-image: url(../img/background_intro.jpg); }
+      background-image: url(../img/background_0.jpg); }
     #wrap .bg li:nth-of-type(2) {
       background-image: url(../img/background_po1.jpg); }
     #wrap .bg li:nth-of-type(3) {
@@ -251,18 +251,18 @@ a {
         opacity: 1; }
   #wrap .swiper-button-next {
     top: auto;
-    bottom: 5vh;
-    right: 10vw;
+    bottom: 3vh;
+    right: 3vw;
     transform: scale(0.5);
-    filter: brightness(0%);
+    filter: brightness(100%);
     opacity: 0.7; }
   #wrap .swiper-button-prev {
     top: auto;
-    bottom: 5vh;
+    bottom: 3vh;
     left: auto;
-    right: calc(10vw + 50px);
+    right: calc(3vw + 50px);
     transform: scale(0.5);
-    filter: brightness(0%);
+    filter: brightness(100%);
     opacity: 0.7; }
   #wrap .swiper-pagination {
     position: absolute;
