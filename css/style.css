@@ -74,21 +74,6 @@ a {
         text-align: center;
         font: bold 15px/1 "poppins";
         color: #fff; }
-  #wrap .introPage .git {
-    float: right;
-    transform: translateY(-40px); }
-    #wrap .introPage .git .gitImg {
-      width: 50px;
-      height: 50px; }
-      #wrap .introPage .git .gitImg .gitLogoImg {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: 2px solid #fff;
-        background-image: url(../img/git.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center; }
   #wrap .po1 h2 {
     font: bold 30px/1 "poppins";
     margin-bottom: 50px;
@@ -264,7 +249,11 @@ a {
           background-image: url(../img/git.png);
           background-repeat: no-repeat;
           background-size: cover;
-          background-position: center; }
+          background-position: center;
+          transition: 0.2s; }
+          #wrap .header .git .gitImg .gitLogoImg:hover {
+            border: 4px solid #fff;
+            transition: 0.1s; }
   #wrap .swiper-wrapper {
     width: 100%;
     height: 100%; }
@@ -286,26 +275,11 @@ a {
         transition: opacity 1s; }
       #wrap .swiper-wrapper .swiper-slide.swiper-slide-active .inner {
         opacity: 1; }
-  #wrap .swiper-button-next {
-    top: auto;
-    bottom: 3vh;
-    right: 3vw;
-    transform: scale(0.5);
-    filter: brightness(100%);
-    opacity: 0.7; }
-  #wrap .swiper-button-prev {
-    top: auto;
-    bottom: 3vh;
-    left: auto;
-    right: calc(3vw + 50px);
-    transform: scale(0.5);
-    filter: brightness(100%);
-    opacity: 0.7; }
   #wrap .swiper-pagination {
     position: absolute;
     left: auto;
     right: 45vw;
-    top: 5vh;
+    top: 4.5vh;
     width: auto;
     height: 50px; }
     #wrap .swiper-pagination span {
