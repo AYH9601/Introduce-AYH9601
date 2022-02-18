@@ -140,17 +140,17 @@ a {
     margin-top: 30px;
     display: inline-block; }
     #wrap .po1 .po1Logo .po1LogoImg {
-      border-radius: 10px;
-      width: 80px;
-      height: 80px;
+      border-radius: 6px;
+      width: 60px;
+      height: 60px;
       background-image: url(../img/FrozenLogo.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center; }
     #wrap .po1 .po1Logo p {
-      margin-top: 5px;
+      margin-top: 15px;
       text-align: center;
-      font: bold 20px/1 "poppins";
+      font: bold 15px/1 "poppins";
       color: #fff; }
   #wrap .po2 h2 {
     font: bold 30px/1 "poppins";
@@ -207,17 +207,17 @@ a {
     margin-top: 30px;
     display: inline-block; }
     #wrap .po2 .po2Logo .po2LogoImg {
-      border-radius: 10px;
-      width: 80px;
-      height: 80px;
+      border-radius: 6px;
+      width: 60px;
+      height: 60px;
       background-image: url(../img/UmbrellaLogo.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center; }
     #wrap .po2 .po2Logo p {
-      margin-top: 5px;
+      margin-top: 15px;
       text-align: center;
-      font: bold 20px/1 "poppins";
+      font: bold 15px/1 "poppins";
       color: crimson; }
   #wrap .bg li {
     width: 100%;
@@ -240,6 +240,31 @@ a {
       background-image: url(../img/background_po2.png); }
     #wrap .bg li:nth-of-type(4) {
       background-image: url(../img/background_po3.png); }
+  #wrap .header {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background-color: #000;
+    opacity: 0.8; }
+    #wrap .header .git {
+      float: left;
+      margin-top: 3vh;
+      margin-left: 1.5vw; }
+      #wrap .header .git .gitImg {
+        width: 50px;
+        height: 50px; }
+        #wrap .header .git .gitImg .gitLogoImg {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 2px solid #fff;
+          background-image: url(../img/git.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; }
   #wrap .swiper-wrapper {
     width: 100%;
     height: 100%; }
@@ -279,7 +304,7 @@ a {
   #wrap .swiper-pagination {
     position: absolute;
     left: auto;
-    right: 40vw;
+    right: 45vw;
     top: 5vh;
     width: auto;
     height: 50px; }

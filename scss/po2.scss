@@ -65,18 +65,18 @@
         margin-top: 30px;
         display: inline-block;
         .po2LogoImg {
-            border-radius: 10px;
-            width: 80px;
-            height: 80px;
+            border-radius: 6px;
+            width: 60px;
+            height: 60px;
             background-image: url(../img/UmbrellaLogo.png);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
         }
         p {
-            margin-top: 5px;
+            margin-top: 15px;
             text-align: center;
-            font: bold 20px/1 "poppins";
+            font: bold 15px/1 "poppins";
             color: crimson;
         }
     }
