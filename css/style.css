@@ -37,12 +37,10 @@ a {
       font: bold 25px/1 "noto sans kr";
       margin-bottom: 50px; }
     #wrap .introPage .introduce p {
-      text-align: right;
-      font: bold 25px/1 "noto sans kr"; }
+      text-align: center;
+      font: bold 25px/2 "noto sans kr"; }
   #wrap .introPage .lang {
-    margin-top: 80px;
-    display: flex;
-    justify-content: center; }
+    margin-top: 80px; }
     #wrap .introPage .lang ::after {
       content: "";
       display: block;
@@ -50,16 +48,15 @@ a {
     #wrap .introPage .lang li {
       margin: 0 20px 0 20px;
       float: left;
-      width: 70px;
-      height: 70px;
+      width: 50px;
+      height: 50px;
       border-radius: 10px;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       transition: 0.25s; }
       #wrap .introPage .lang li:hover {
-        transition: 0.25s;
-        cursor: pointer; }
+        transition: 0.25s; }
       #wrap .introPage .lang li:nth-of-type(1) {
         background-image: url(../img/html5.png); }
       #wrap .introPage .lang li:nth-of-type(2) {
@@ -73,10 +70,25 @@ a {
       #wrap .introPage .lang li:nth-of-type(6) {
         background-image: url(../img/redux.png); }
       #wrap .introPage .lang li p {
-        transform: translateY(80px);
+        transform: translateY(60px);
         text-align: center;
-        font: bold 20px/1 "poppins";
+        font: bold 15px/1 "poppins";
         color: #fff; }
+  #wrap .introPage .git {
+    float: right;
+    transform: translateY(-40px); }
+    #wrap .introPage .git .gitImg {
+      width: 50px;
+      height: 50px; }
+      #wrap .introPage .git .gitImg .gitLogoImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        background-image: url(../img/git.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; }
   #wrap .po1 h2 {
     font: bold 30px/1 "poppins";
     margin-bottom: 50px;

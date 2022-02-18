@@ -25,20 +25,20 @@
             margin-bottom: 50px;
         }
         p  {
-            text-align: right;
-            font: bold 25px/1 "noto sans kr";
+            text-align: center;
+            font: bold 25px/2 "noto sans kr";
         }
     }
     .lang {
         margin-top: 80px;
-        display: flex;
-        justify-content: center;
+        // display: flex;
+        // justify-content: center;
         ::after {content: ""; display: block; clear: both;}
         li {
             margin: 0 20px 0 20px;
             float: left;
-            width: 70px;
-            height: 70px;
+            width: 50px;
+            height: 50px;
             border-radius: 10px;
             background-size: cover;
             background-repeat: no-repeat;
@@ -47,7 +47,7 @@
             transition: 0.25s;
             &:hover {
                 transition: 0.25s;
-                cursor: pointer;
+                // cursor: pointer;
                 // filter: grayscale(0); 
             }
             &:nth-of-type(1) {
@@ -68,12 +68,32 @@
             &:nth-of-type(6) {
                 background-image: url(../img/redux.png);
             }
+
             p {
-                transform: translateY(80px);
+                transform: translateY(60px);
                 text-align: center;
-                font: bold 20px/1 "poppins";
+                font: bold 15px/1 "poppins";
                 color: #fff;
             }
         }
+    }
+    .git {
+        float: right;
+        transform: translateY(-40px);
+        .gitImg {
+            width: 50px;
+            height: 50px;
+            .gitLogoImg {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                background-image: url(../img/git.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
     }
 }
