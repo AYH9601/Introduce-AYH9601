@@ -8,45 +8,42 @@
 
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/3438be3ebb.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script defer src="js/main.js"></script>
     <script defer src="js/form.js"></script>
 </head>
-<style>
-    #newMessage {
-    font: bold 15px/1 "poppins" ;}
-
-    
-</style>
 <body>
-    <div id="newMessage">
-        <div class="mailHeader">
-            <i class="fas fa-envelope-square"></i>
-            <h1>New Message</h1>
+    <section id="wrap">
+        <div id="newMessage">
+            <div class="mailHeader">
+                <i class="fas fa-envelope-square"></i>
+                <h1>New Message</h1>
+            </div>
+            <form id="contact-form">
+                <input type="hidden" name="contact_number">
+                <ul>
+                    <li>
+                        <h3>Name</h3>
+                        <input type="text" required placeholder="Name" name="to_name">
+                    </li>
+                    <li>
+                        <h3>PhoneNumber</h3>
+                        <input type="text" required placeholder="PhoneNumber" name="contact">
+                    </li>
+                    <li>
+                        <h3>Email</h3>
+                        <input type="text" required placeholder="Email" name="from_name">
+                    </li>
+                    <li>
+                        <h3>Message</h3>
+                        <textarea required placeholder="Write Your Message" name="message_html" cols="20" rows="5"></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="SEND">
+                    </li>
+                </ul>
+            </form>
         </div>
-        <form id="contact-form">
-            <input type="hidden" name="contact_number">
-            <ul>
-                <li>
-                    <h3>Name</h3>
-                    <input type="text" required placeholder="Name" name="to_name">
-                </li>
-                <li>
-                    <h3>PhoneNumber</h3>
-                    <input type="text" required placeholder="PhoneNumber" name="contact">
-                </li>
-                <li>
-                    <h3>Email</h3>
-                    <input type="text" required placeholder="Email" name="from_name">
-                </li>
-                <li>
-                    <h3>Message</h3>
-                    <textarea required placeholder="Write Your Message" name="message_html" cols="20" rows="5"></textarea>
-                </li>
-                <li>
-                    <input type="submit" value="SEND">
-                </li>
-            </ul>
-        </form>
-    </div>
+    </section>
 </body>
 </html>
