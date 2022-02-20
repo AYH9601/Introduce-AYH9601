@@ -24,6 +24,7 @@
         position: absolute;
         right: 560px;
         top: 200px;
+        text-align: center;
         h3 {
             text-align: center;
             font: bold 15px/1 "noto sans kr";
@@ -32,6 +33,20 @@
         p  {
             text-align: center;
             font: bold 15px/2 "noto sans kr";
+        }
+        >a {
+            display: inline-block;
+            margin-top: 100px;
+            text-align: center;
+            font: bold 20px/1 "poppins";
+            border-bottom: 2px solid crimson;
+            color: crimson;
+            transition: 0.25s;
+            &:hover{
+                border-bottom: 2px solid dodgerblue;
+                color: dodgerblue;
+                transition: 0.25s;
+            }
         }
     }
 

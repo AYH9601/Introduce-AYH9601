@@ -35,7 +35,8 @@ a {
     width: 410px;
     position: absolute;
     right: 560px;
-    top: 200px; }
+    top: 200px;
+    text-align: center; }
     #wrap .introPage .introduce h3 {
       text-align: center;
       font: bold 15px/1 "noto sans kr";
@@ -43,6 +44,18 @@ a {
     #wrap .introPage .introduce p {
       text-align: center;
       font: bold 15px/2 "noto sans kr"; }
+    #wrap .introPage .introduce > a {
+      display: inline-block;
+      margin-top: 100px;
+      text-align: center;
+      font: bold 20px/1 "poppins";
+      border-bottom: 2px solid crimson;
+      color: crimson;
+      transition: 0.25s; }
+      #wrap .introPage .introduce > a:hover {
+        border-bottom: 2px solid dodgerblue;
+        color: dodgerblue;
+        transition: 0.25s; }
   #wrap .introPage .info {
     width: 240px;
     text-align: left;
@@ -255,14 +268,59 @@ a {
       text-align: center;
       font: bold 15px/1 "poppins";
       color: crimson; }
-  #wrap #newMessage {
-    font: bold 20px/1 "poppins"; }
-    #wrap #newMessage .mailHeader {
+  #wrap #newMessage .mailHeader {
+    padding: 20px 40px 0 20px;
+    width: 100%;
+    height: 80px;
+    background-color: #555; }
+    #wrap #newMessage .mailHeader i {
+      display: inline-block;
+      font-size: 30px;
+      color: #fff;
+      margin-right: 15px; }
+    #wrap #newMessage .mailHeader h1 {
+      display: inline-block;
+      font: bold 30px/1 "poppins";
+      line-height: 40px;
+      color: #fff; }
+  #wrap #newMessage form {
+    padding: 30px; }
+    #wrap #newMessage form ul li input[type=text] {
+      border: none;
+      border-bottom: 2.5px solid #999;
       width: 100%;
-      height: 100px;
-      background-color: #555; }
-      #wrap #newMessage .mailHeader h1 {
-        color: crimson; }
+      height: 50px;
+      padding-left: 5px; }
+    #wrap #newMessage form ul li input::placeholder {
+      font: bold 25px/1 "poppins";
+      transform: translateY(5px); }
+    #wrap #newMessage form ul li textarea {
+      resize: none;
+      width: 100%;
+      height: 250px;
+      padding: 5px;
+      padding-top: 20px;
+      border: none;
+      border-bottom: 2.5px solid #999; }
+    #wrap #newMessage form ul li textarea::placeholder {
+      font: bold 25px/1 "poppins"; }
+    #wrap #newMessage form ul li:last-child {
+      margin-top: 20px;
+      text-align: center; }
+      #wrap #newMessage form ul li:last-child input[type=submit] {
+        cursor: pointer;
+        background-color: crimson;
+        border: none;
+        font: bold 25px/1 "poppins";
+        letter-spacing: 1px;
+        color: #fff;
+        width: 100px;
+        height: 40px;
+        border-radius: 25px;
+        transition: 0.25s; }
+        #wrap #newMessage form ul li:last-child input[type=submit]:hover {
+          background-color: dodgerblue;
+          transition: 0.25s; }
   #wrap .bg li {
     width: 100%;
     height: 100%;
@@ -354,7 +412,7 @@ a {
   #wrap .swiper-pagination {
     position: absolute;
     left: auto;
-    right: 45vw;
+    right: 42.5vw;
     top: 4.5vh;
     width: auto;
     height: 50px; }
