@@ -170,7 +170,7 @@ a {
     top: 55px;
     right: 60px;
     font: bold 15px/1 "poppins";
-    color: #fff; }
+    color: dodgerblue; }
   #wrap .po1 .po1Pic {
     border-top: 5px solid #fff;
     width: 600px;
@@ -184,7 +184,8 @@ a {
     top: 130px;
     left: 750px; }
     #wrap .po1 .po1Comment p {
-      font: bold 25px/2 "noto sans kr"; }
+      font: bold 25px/2 "noto sans kr";
+      color: #333; }
   #wrap .po1 .po1Logo {
     margin-top: 30px;
     display: inline-block; }
@@ -201,6 +202,20 @@ a {
       text-align: center;
       font: bold 15px/1 "poppins";
       color: #fff; }
+  #wrap .po1 .po1Guide {
+    display: inline-block;
+    margin-left: 25px;
+    font: bold 15px/1 "poppins";
+    color: #fff;
+    transition: 0.25s; }
+    #wrap .po1 .po1Guide:hover {
+      transition: 0.25s;
+      color: dodgerblue; }
+    #wrap .po1 .po1Guide i {
+      text-align: center;
+      font-size: 50px;
+      display: block;
+      transform: translateY(-20px); }
   #wrap .po2 h2 {
     font: bold 30px/1 "poppins";
     margin-bottom: 50px;
@@ -251,7 +266,8 @@ a {
     top: 130px;
     left: 750px; }
     #wrap .po2 .po2Comment p {
-      font: bold 25px/2 "noto sans kr"; }
+      font: bold 25px/2 "noto sans kr";
+      color: #333; }
   #wrap .po2 .po2Logo {
     margin-top: 30px;
     display: inline-block; }
@@ -268,6 +284,20 @@ a {
       text-align: center;
       font: bold 15px/1 "poppins";
       color: crimson; }
+  #wrap .po2 .po2Guide {
+    display: inline-block;
+    margin-left: 25px;
+    font: bold 15px/1 "poppins";
+    color: crimson;
+    transition: 0.25s; }
+    #wrap .po2 .po2Guide:hover {
+      transition: 0.25s;
+      color: #fff; }
+    #wrap .po2 .po2Guide i {
+      text-align: center;
+      font-size: 50px;
+      display: block;
+      transform: translateY(-20px); }
   #wrap #newMessage .mailHeader {
     padding: 20px 40px 0 20px;
     width: 100%;

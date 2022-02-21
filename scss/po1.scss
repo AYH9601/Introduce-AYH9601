@@ -36,7 +36,7 @@
         top: 55px;
         right: 60px;
         font: bold 15px/1 "poppins";
-        color: #fff;
+        color: dodgerblue;
     }
 
     .po1Pic {
@@ -54,11 +54,13 @@
         left: 750px;
         p {
             font: bold 25px/2 "noto sans kr";
+            color: #333;
         }
     }
     .po1Logo {
         margin-top: 30px;
         display: inline-block;
+        
         .po1LogoImg {
             border-radius: 6px;
             width: 60px;
@@ -73,6 +75,23 @@
             text-align: center;
             font: bold 15px/1 "poppins";
             color: #fff;
+        }
+    }
+    .po1Guide {
+        display: inline-block;
+        margin-left: 25px;
+        font: bold 15px/1 "poppins";
+        color: #fff;
+        transition: 0.25s;
+        &:hover {
+            transition: 0.25s;
+            color: dodgerblue;
+        }
+        i {
+            text-align: center;
+            font-size: 50px;
+            display: block;
+            transform: translateY(-20px);
         }
     }
 }
