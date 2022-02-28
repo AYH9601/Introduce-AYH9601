@@ -303,6 +303,92 @@ a {
       font-size: 50px;
       display: block;
       transform: translateY(-20px); }
+  #wrap .po3 h2 {
+    font: bold 30px/1 "poppins";
+    margin-bottom: 50px;
+    color: #fff; }
+    #wrap .po3 h2 p {
+      display: inline-block;
+      font: bold 30px/1 "Lato";
+      letter-spacing: 5px;
+      color: #fff; }
+      #wrap .po3 h2 p::first-letter {
+        color: dodgerblue; }
+    #wrap .po3 h2 .langPo3 {
+      display: inline-block; }
+      #wrap .po3 h2 .langPo3 ::after {
+        content: "";
+        display: block;
+        clear: both; }
+      #wrap .po3 h2 .langPo3 li {
+        margin: 0 10px 0 10px;
+        float: left;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+        #wrap .po3 h2 .langPo3 li:nth-of-type(1) {
+          background-image: url(../img/html5.png); }
+        #wrap .po3 h2 .langPo3 li:nth-of-type(2) {
+          background-image: url(../img/css.png); }
+        #wrap .po3 h2 .langPo3 li:nth-of-type(3) {
+          background-image: url(../img/javascript.png); }
+        #wrap .po3 h2 .langPo3 li:nth-of-type(4) {
+          background-image: url(../img/sass.png); }
+  #wrap .po3 h3 {
+    position: absolute;
+    top: 55px;
+    right: 60px;
+    font: bold 15px/1 "poppins";
+    color: #fff;
+    letter-spacing: 1px; }
+  #wrap .po3 .po3Pic {
+    border-top: 5px solid dodgerblue;
+    width: 600px;
+    height: 350px;
+    background-image: url(../img/PortalPage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  #wrap .po3 .po3Comment {
+    position: absolute;
+    top: 130px;
+    left: 750px; }
+    #wrap .po3 .po3Comment p {
+      font: bold 25px/2 "noto sans kr";
+      color: #333; }
+  #wrap .po3 .po3Logo {
+    margin-top: 30px;
+    display: inline-block; }
+    #wrap .po3 .po3Logo .po3LogoImg {
+      border-radius: 6px;
+      width: 60px;
+      height: 60px;
+      background-image: url(../img/portal.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+    #wrap .po3 .po3Logo p {
+      margin-top: 15px;
+      text-align: center;
+      font: bold 15px/1 "poppins";
+      color: #fff; }
+  #wrap .po3 .po3Guide {
+    display: inline-block;
+    margin-left: 25px;
+    font: bold 15px/1 "poppins";
+    color: #fff;
+    transition: 0.25s; }
+    #wrap .po3 .po3Guide:hover {
+      transition: 0.25s;
+      color: dodgerblue; }
+    #wrap .po3 .po3Guide i {
+      text-align: center;
+      font-size: 50px;
+      display: block;
+      transform: translateY(-20px); }
   #wrap #newMessage .mailHeader {
     padding: 20px 40px 0 20px;
     width: 100%;
@@ -376,7 +462,7 @@ a {
     #wrap .bg li:nth-of-type(3) {
       background-image: url(../img/background_po2.png); }
     #wrap .bg li:nth-of-type(4) {
-      background-image: url(../img/background_po3.png); }
+      background-image: url(../img/spacewallpaper.png); }
   #wrap .header {
     z-index: 5;
     position: absolute;
