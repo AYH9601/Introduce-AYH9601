@@ -12,10 +12,11 @@
         height: 300px;
         border-radius: 50%;
         border:2px solid #fff;
-        background-image: url(../img/profile_image2.jpg);
+        background-image: url(../img/space12.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        animation: brightness 2s linear alternate infinite;
     }
     
     .introduce {
@@ -168,4 +169,14 @@
         }
     }
 
+}
+
+@keyframes brightness {
+    0% {
+        filter: brightness(90%);
+
+    }
+    100% {
+        filter: brightness(110%);
+    }
 }

@@ -27,10 +27,11 @@ a {
     height: 300px;
     border-radius: 50%;
     border: 2px solid #fff;
-    background-image: url(../img/profile_image2.jpg);
+    background-image: url(../img/space12.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: center;
+    animation: brightness 2s linear alternate infinite; }
   #wrap .introPage .introduce {
     width: 410px;
     position: absolute;
@@ -143,6 +144,11 @@ a {
         text-align: center;
         font: bold 15px/1 "poppins";
         color: #fff; }
+@keyframes brightness {
+  0% {
+    filter: brightness(90%); }
+  100% {
+    filter: brightness(110%); } }
   #wrap .po1 h2 {
     font: bold 30px/1 "poppins";
     margin-bottom: 50px;
